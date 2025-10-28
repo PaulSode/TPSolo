@@ -41,6 +41,7 @@ npm run dev
 
 
 ## Structure de fichiers
+```
 backend/
 ├─ products/
 │  ├─ admin.py         # Enregistrement des modèles pour l'admin
@@ -67,5 +68,4 @@ frontend/
 ├─ index.html
 ├─ package.json
 └─ vite.config.js
-
-
+```
