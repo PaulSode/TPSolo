@@ -1,0 +1,82 @@
+.container {
+  padding: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  background: linear-gradient(180deg, rgba(217,70,239,0.04), rgba(0,255,159,0.02));
+  border: 1px solid rgba(0,255,159,0.06);
+}
+
+.title {
+  font-size: 48px;
+  margin: 0 0 12px;
+  color: #00ff9f;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 0 0 20px;
+  color: #d946ef;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.cta {
+  background: #00ff9f;
+  color: #0a0a0a;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.secondary {
+  color: #ffeb3b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.featureCard {
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(217,70,239,0.06);
+  text-align: center;
+}
+
+.featureIcon {
+  font-size: 40px;
+  margin-bottom: 12px;
+  color: #ffeb3b;
+}
+
+.featureTitle {
+  margin: 0 0 8px;
+  color: #00ff9f;
+}
+
+.featureDesc {
+  margin: 0;
+  color: #ccc;
+  font-size: 14px;
+}

@@ -1,0 +1,86 @@
+.catalog {
+  padding: 40px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.search, .select, .priceInput {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #00ff9f;
+  background: transparent;
+  color: #fff;
+}
+
+.search {
+  flex: 1;
+}
+
+.priceInput {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.ctaButton {
+  background: #00ff9f;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #00ff9f;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  background: #111;
+  transition: 0.3s;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #d946ef;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.title {
+  color: #ffeb3b;
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: #00ff9f;
+  font-weight: bold;
+}
+
+.category {
+  color: #d946ef;
+  font-size: 14px;
+}

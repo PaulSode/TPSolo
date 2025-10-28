@@ -1,0 +1,65 @@
+.content {
+  padding: 40px;
+}
+
+.backButton {
+  background: transparent;
+  color: #00ff9f;
+  border: 1px solid #00ff9f;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.productDetail {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.badge {
+  background: #d946ef;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 42px;
+  color: #ffeb3b;
+  margin-bottom: 10px;
+}
+
+.category {
+  color: #d946ef;
+  font-size: 20px;
+}
+
+.price {
+  color: #00ff9f;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.desc {
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.stock {
+  margin-top: 20px;
+}
+
+.stock span {
+  font-weight: bold;
+}
